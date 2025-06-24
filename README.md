@@ -1,7 +1,5 @@
 GCP RAG System Prototype
 
-Date: May 27, 2024
-
 1. Architecture Overview
 
 Key Python Scripts:
@@ -182,9 +180,3 @@ To manage costs, UNDEPLOY the index from the Vector Search Index Endpoint or DEL
 - GCP Auth Errors (401/403): Check service-account-key.json path, IAM roles, and API enablement. Allow time for IAM propagation.
 - GCP API/Model Not Found (404) / Quota Errors (429): Verify APIs are enabled, region in config.py is correct and supports the specified models, and check project quotas.
 - Vector Store Errors: Confirm all Vector Store IDs in config.py are correct and match deployed resources. Ensure index deployment to endpoint is complete and active.
-
-9. Future Work
-- Support for PDF, DOCX, PPTX.
-- Enhanced error handling, logging, chunking.
-- Improved source attribution and guardrails.
-- Comprehensive testing and metric collection.
