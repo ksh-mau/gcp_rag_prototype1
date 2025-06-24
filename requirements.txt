@@ -1,0 +1,8 @@
+google-cloud-aiplatform>=1.80.0,<2.0.0  # Using a known good version range
+google-cloud-storage>=2.0.0,<3.0.0
+google-auth>=2.14.1,<3.0.0
+numpy>=1.21.0,<2.0.0 # Shapely often has numpy version constraints
+shapely>=2.0.0,<3.0.0
+protobuf>=4.21.0,<5.0.0 # Constraining to v4 for wider compatibility initially
+# Add PyPDF2, python-docx, python-pptx when Phase 3 (other doc types) is added
+# Add chardet if robust TXT encoding detection is added

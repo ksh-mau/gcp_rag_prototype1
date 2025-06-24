@@ -1,0 +1,8 @@
+Hello world. This is a test document for our RAG system.
+Retrieval Augmented Generation is an exciting field.
+This document contains some basic facts.
+The sky is blue. Water is wet.
+Let's see if our system can answer questions about this.
+The RAG system uses vector embeddings.
+Google Cloud offers Vertex AI for machine learning.
+Blue is the color of the sky.
